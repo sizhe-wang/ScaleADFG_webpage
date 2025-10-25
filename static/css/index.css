@@ -276,7 +276,13 @@ body {
   box-shadow: var(--shadow-lg);
 }
 
-.results-carousel .item img,
+.results-carousel .item img {
+  display: block;
+  margin: 0 auto;
+  border-radius: var(--border-radius);
+  width: 50%;
+  height: auto;
+}
 .results-carousel video {
   margin: 0;
   border-radius: var(--border-radius);
